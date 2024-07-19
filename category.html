@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="imgs/istockphoto-1172893073-612x612.jpg" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="brands.html">Brands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="category.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item showWish d-none">
+                        <a class="nav-link" aria-current="page" href="wish.html">Wishlist </a>
+                    </li>
+                    <li class="nav-item showCart d-none">
+                        <a class="nav-link" aria-current="page" href="cart.html">Cart </a>
+                    </li>
+                </ul>
+                <a href="user.html" class="user position-relative d-none">
+                    <i class="fa-regular fa-user mx-2 fa-1x"></i>
+                </a>
+                <a href="cart.html" class="position-relative showCartI d-none">
+                    <i class="fa-solid fa-cart-shopping fa-1x"></i>
+                    <p class="carts d-inline position-absolute rounded rounded-circle "></p>
+                    <!-- for carts length-->
+                </a>
+                <!-- Btns Register and Login -->
+                <div id="registerBtn" class="registerBtn">
+                    <a href="signup.html"> Sign Up </a>
+                    <a href="login.html"> Login </a>
+                </div>
+                <div class="logOut">
+                    <a id="logoutBtn" class="d-none">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class=" head d-flex justify-content-center mx-5">
+        <div class="heading ">
+            <h2 class="text-center border-bottom  pb-3">
+                Get Your <span class="text-main ">Category</span>
+            </h2>
+        </div>
+    </div>
+    <div class="container pt-2">
+        <div class="row g-4" id="category-container">
+            <!-- المنتجات سيتم إضافتها هنا -->
+        </div>
+    </div>
+    <script src="jS/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
