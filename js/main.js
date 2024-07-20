@@ -11,7 +11,7 @@ async function getProducts() {
       product.addEventListener("click", (e) => {
         let index = e.target.closest(".product").getAttribute("data-index");
         saveDetailsToLocalStorage(res.data[index]); // get the object by its index and save it to local storage
-        window.location.href = "./details.html";
+        window.location.href = "./e-commerce-js/details.html";
       });
     });
 }
